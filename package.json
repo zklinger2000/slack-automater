@@ -1,0 +1,29 @@
+{
+  "name": "slack-automater",
+  "version": "1.0.0",
+  "description": "A Handy framework for developing Slack automation tools.",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zklinger2000/slack-automater.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "automation",
+    "nodejs",
+    "slackbot"
+  ],
+  "author": "Zack Klinger",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/zklinger2000/slack-automater/issues"
+  },
+  "homepage": "https://github.com/zklinger2000/slack-automater#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2"
+  }
+}
