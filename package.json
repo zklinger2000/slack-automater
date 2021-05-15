@@ -7,7 +7,7 @@
     "lint": "esw src/scripts --color",
     "lint:watch": "npm run lint -- --watch",
     "predev": "babel-node src/scripts/startMessage.js",
-    "dev": "nodemon src/scripts/startMessage.js --exec babel-node",
+    "dev": "nodemon src/scripts/startSocketModeClient.js --exec babel-node",
     "dev:start": "npm-run-all --parallel dev lint:watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/zklinger2000/slack-automater#readme",
   "dependencies": {
+    "@slack/socket-mode": "1.0.2",
     "chalk": "4.1.1",
     "dotenv": "9.0.2"
   },
